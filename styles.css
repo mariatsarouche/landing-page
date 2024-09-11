@@ -95,7 +95,10 @@ img{
 
 .hero-button, .content img,  #box-stuff, .box-button{
     border-radius: 8px;
-    margin-top: 4%;
+}
+
+.hero-button, .content img {
+    margin-top: 3%;
 }
 
 .content .container, .image, .quote-section .container {
@@ -150,7 +153,9 @@ img{
 #box-stuff {
     width: 70%;
     justify-content: space-between;
+    align-content: center;
     padding: 4%;
+
 }
 
 .box-button {
