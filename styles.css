@@ -11,6 +11,9 @@ body {
     width: 80%;
     height: auto;
     display: flex;
+}
+
+#header-stuff {
     justify-content: space-between;
 }
 
@@ -19,7 +22,7 @@ body {
     color: #F9FAF8;
 }
 
-.header, .hero, .content, .quote-section, .footer {
+.header, .hero, .content, .quote-section, .footer, .box {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -40,9 +43,13 @@ body {
     color: #F9FAF8;
 }
 
-.sec-text , a{
+.sec-text , a, .box{
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.hero-button, #box-stuff {
+    background-color: #3882F6;
 }
 
 a {
@@ -67,22 +74,37 @@ img{
 }
 
 .content img{
-    border-radius: 8px;
     width: 200px;
     height: 200px;
 }
 
-.content .container{
+.hero-button, .content img,  #box-stuff{
+    border-radius: 8px;
+}
+
+.content .container, .image, #quote-stuff {
     justify-content: center;
     flex-direction: column;
 }
 
-.info-header, .quote {
+.info-header, .quote, .image {
     color: #1F2937;
 }
-.images, .info-header , .quote {
+
+.info-header {
+    font-size: 36px;
+}
+
+.images, .info-header, .quote-section {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+.image {
+    width: 200px;
+    text-align: center;
 }
 
 .quote-section {
@@ -90,10 +112,25 @@ img{
 }
 
 .quote {
+    display: flex;
+    text-align: left;
     font-size: 36px;
     font-style: light italic;
+    width: 60%;
 }
 
-.info-header {
-    font-size: 36px;
+#quote-credit {
+    font-size: 16px;
+    justify-content: right;
 }
+
+#box-stuff {
+    width: 70%;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#footer-thing {
+    justify-content: center;
+}
+
