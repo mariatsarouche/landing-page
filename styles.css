@@ -26,7 +26,7 @@ body {
 .header, .hero, .content, .quote-section, .box, .footer {
     width: 100%;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 20px;
     text-wrap: wrap;
 }
 
@@ -57,10 +57,11 @@ body {
 }
 
 .hero-button, .box-button{
-    width: 20%;
+    width: auto;
     padding: 1%;
     display: inline-block;
     text-align: center;
+    overflow: hidden;
 }
 
 a {
