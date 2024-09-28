@@ -26,7 +26,7 @@ body {
 .header, .hero, .content, .quote-section, .box, .footer {
     width: 100%;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 40px;
     text-wrap: wrap;
 }
 
@@ -135,7 +135,6 @@ img{
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 7%;
 }
 
 .quote {
