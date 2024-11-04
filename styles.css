@@ -4,6 +4,7 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0;
+    height: 100%;
     font-family: serif;
 }
 
@@ -28,6 +29,7 @@ body {
     flex-wrap: wrap;
     padding: 20px 40px;
     text-wrap: wrap;
+    overflow: hidden;
 }
 
 .header, .hero, .footer {
